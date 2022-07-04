@@ -4,6 +4,8 @@ import './App.css';
 import { Helmet } from "react-helmet";
 
 import "./assets/css/styles.css"
+import "./assets/css/simpleLightbox.min.css"
+
 
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';

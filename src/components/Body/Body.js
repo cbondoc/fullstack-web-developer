@@ -83,7 +83,7 @@ const Body = () => (
 
 
         {/* <!-- Services--> */}
-        <section class="page-section" id="services">
+        <section class="page-section bg-secondary" id="services">
             <div class="container px-5 px-lg-5">
                 <h2 class="text-center mt-0">At Your Service</h2>
                 <hr class="divider" />
@@ -94,7 +94,7 @@ const Body = () => (
                                 <i class="bi-calculator fs-1 text-primary"></i>
                             </div>
                             <h3 class="h5 mb-2">Electrical Estimate</h3>
-                            <p class="text-muted mb-0">
+                            <p class="mb-0">
                                 Create electrical estimates based on the given plan. It includes
                                 all the electrical fixtures, wires, and pipes for the entire
                                 project.
@@ -107,7 +107,7 @@ const Body = () => (
                                 <i class="bi-house-door fs-1 text-primary"></i>
                             </div>
                             <h3 class="h5 mb-2">Home Improvements</h3>
-                            <p class="text-muted mb-0">
+                            <p class="mb-0">
                                 Basic home improvements like addition of electrical fixtures,
                                 sink, room, c.r and installation of CCTV cameras.
                             </p>
@@ -119,7 +119,7 @@ const Body = () => (
                                 <i class="bi-broadcast fs-1 text-primary"></i>
                             </div>
                             <h3 class="h4 mb-2">Basic Automation</h3>
-                            <p class="text-muted mb-0">
+                            <p class="mb-0">
                                 Integrating devices and sensors to help you in day to day task
                                 like automation of lights and appliances based on certain
                                 triggers.
@@ -132,7 +132,7 @@ const Body = () => (
                                 <i class="bi-search fs-1 text-primary"></i>
                             </div>
                             <h3 class="h4 mb-2">Attention to Details</h3>
-                            <p class="text-muted mb-0">
+                            <p class="mb-0">
                                 Accomplishing the task while demonstrating a thorough concern
                                 for all the areas involved, no matter how small.
                             </p>
@@ -143,7 +143,7 @@ const Body = () => (
         </section>
         {/* <!-- Portfolio--> */}
         <div id="portfolio">
-            <div class="container-fluid p-0 pt-0 mt-2">
+            <div class="container-fluid p-0 pt-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
                         <a
@@ -151,9 +151,6 @@ const Body = () => (
                             href="../../assets/portfolio/fullsize/1.jpg"
                             title="Electrical Estimation of Shell Alaminos"
                         >
-
-
-
                             <img src={thumb_Portfolio1} className="img-fluid" alt="Electrical Estimation of Shell Alaminos" data-holder-rendered="true" />
 
 
@@ -263,7 +260,7 @@ const Body = () => (
             </div>
         </div>
         {/* <!-- Call to action--> */}
-        <section class="page-section bg-dark text-white">
+        <section class="page-section bg-primary">
             <div class="container px-4 px-lg-5 py-lg-5 my-lg-5 text-center">
                 <h2 class="mb-4">Interested in the services that I offered?</h2>
             </div>
@@ -275,7 +272,7 @@ const Body = () => (
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Let's Get In Touch!</h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">
+                        <p class="mb-5">
                             Ready to start your next project with me? Send me a messages and I
                             will get back to you as soon as possible!
                         </p>
