@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-ReactJS/static/css/main.a174841c.css",
-    "main.js": "/Portfolio-ReactJS/static/js/main.b0b2b65c.js",
-    "static/js/787.2c9ed5cd.chunk.js": "/Portfolio-ReactJS/static/js/787.2c9ed5cd.chunk.js",
-    "static/media/formal_cbondoc.jpg": "/Portfolio-ReactJS/static/media/formal_cbondoc.feca8359fa4a4662bfcb.jpg",
-    "static/media/2.jpg": "/Portfolio-ReactJS/static/media/2.eda59a32971c248ab9b7.jpg",
-    "static/media/5.jpg": "/Portfolio-ReactJS/static/media/5.1feb0fac0f410b5dd6d1.jpg",
-    "static/media/6.jpg": "/Portfolio-ReactJS/static/media/6.34749d5e9466ce5db914.jpg",
-    "static/media/3.jpg": "/Portfolio-ReactJS/static/media/3.e6f8e02742948ede01bf.jpg",
-    "static/media/1.jpg": "/Portfolio-ReactJS/static/media/1.014cfbc9347ddfc41240.jpg",
-    "static/media/4.jpg": "/Portfolio-ReactJS/static/media/4.f9d9f1710c5fd1c3998b.jpg",
-    "static/media/logo_cbondoc.png": "/Portfolio-ReactJS/static/media/logo_cbondoc.b3f0dd6dc87e1828319e.png",
-    "index.html": "/Portfolio-ReactJS/index.html",
-    "main.a174841c.css.map": "/Portfolio-ReactJS/static/css/main.a174841c.css.map",
-    "main.b0b2b65c.js.map": "/Portfolio-ReactJS/static/js/main.b0b2b65c.js.map",
-    "787.2c9ed5cd.chunk.js.map": "/Portfolio-ReactJS/static/js/787.2c9ed5cd.chunk.js.map"
+    "main.css": "/Portfolio-ReactJS/public/static/css/main.a174841c.css",
+    "main.js": "/Portfolio-ReactJS/public/static/js/main.8bb5715a.js",
+    "static/js/787.2c9ed5cd.chunk.js": "/Portfolio-ReactJS/public/static/js/787.2c9ed5cd.chunk.js",
+    "static/media/formal_cbondoc.jpg": "/Portfolio-ReactJS/public/static/media/formal_cbondoc.feca8359fa4a4662bfcb.jpg",
+    "static/media/2.jpg": "/Portfolio-ReactJS/public/static/media/2.eda59a32971c248ab9b7.jpg",
+    "static/media/5.jpg": "/Portfolio-ReactJS/public/static/media/5.1feb0fac0f410b5dd6d1.jpg",
+    "static/media/6.jpg": "/Portfolio-ReactJS/public/static/media/6.34749d5e9466ce5db914.jpg",
+    "static/media/3.jpg": "/Portfolio-ReactJS/public/static/media/3.e6f8e02742948ede01bf.jpg",
+    "static/media/1.jpg": "/Portfolio-ReactJS/public/static/media/1.014cfbc9347ddfc41240.jpg",
+    "static/media/4.jpg": "/Portfolio-ReactJS/public/static/media/4.f9d9f1710c5fd1c3998b.jpg",
+    "static/media/logo_cbondoc.png": "/Portfolio-ReactJS/public/static/media/logo_cbondoc.b3f0dd6dc87e1828319e.png",
+    "index.html": "/Portfolio-ReactJS/public/index.html",
+    "main.a174841c.css.map": "/Portfolio-ReactJS/public/static/css/main.a174841c.css.map",
+    "main.8bb5715a.js.map": "/Portfolio-ReactJS/public/static/js/main.8bb5715a.js.map",
+    "787.2c9ed5cd.chunk.js.map": "/Portfolio-ReactJS/public/static/js/787.2c9ed5cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a174841c.css",
-    "static/js/main.b0b2b65c.js"
+    "static/js/main.8bb5715a.js"
   ]
 }
