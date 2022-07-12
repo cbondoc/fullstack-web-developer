@@ -1,8 +1,8 @@
 {
+  "homepage": "https://cary1234.github.io/Portfolio-ReactJS",
   "name": "cbondoc-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cary1234.github.io/Portfolio-ReactJS/public",
   "dependencies": {
     "-": "^0.0.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
