@@ -1,15 +1,12 @@
 import React from 'react';
 import './Header.css';
-import logoUrl from '../../assets/logo_cbondoc.png';
+import logoUrl from '../../assets/images/logo_cbondoc.png';
 const Header = () => (
 
 
 
 
     <div className="header" id="page-top">
-
-
-
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">

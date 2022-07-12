@@ -3,76 +3,94 @@ import './Body.css';
 
 
 
-import logoUrl from '../../assets/formal_cbondoc.jpg';
-import thumb_Portfolio1 from '../../assets/portfolio/thumbnails/1.jpg';
-import thumb_Portfolio2 from '../../assets/portfolio/thumbnails/2.jpg';
-import thumb_Portfolio3 from '../../assets/portfolio/thumbnails/3.jpg';
-import thumb_Portfolio4 from '../../assets/portfolio/thumbnails/4.jpg';
-import thumb_Portfolio5 from '../../assets/portfolio/thumbnails/5.jpg';
-import thumb_Portfolio6 from '../../assets/portfolio/thumbnails/6.jpg';
+
+import formal_cbondoc from '../../assets/images/formal_cbondoc.jpg';
+import bsit_cbondoc from '../../assets/images/bsit_cbondoc.png';
+import bsee_cbondoc from '../../assets/images/bsee_cbondoc.jpg';
+import thumb_Portfolio1 from '../../assets/images/portfolio/thumbnails/1.jpg';
+import thumb_Portfolio2 from '../../assets/images/portfolio/thumbnails/2.jpg';
+import thumb_Portfolio3 from '../../assets/images/portfolio/thumbnails/3.jpg';
+import thumb_Portfolio4 from '../../assets/images/portfolio/thumbnails/4.jpg';
+import thumb_Portfolio5 from '../../assets/images/portfolio/thumbnails/5.jpg';
+import thumb_Portfolio6 from '../../assets/images/portfolio/thumbnails/6.jpg';
+import smart_attendance_1 from '../../assets/images/smart_attendance_1.png';
+import smart_attendance_2 from '../../assets/images/smart_attendance_2.png';
 
 
+import { render } from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEarthAsia, faLocationCrosshairs, faCalculator, faCheckDouble } from '@fortawesome/free-solid-svg-icons';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Body = () => (
 
-
-
-
     <div className="body">
-        {/* Masthead */}
+
         <header class="masthead">
-            <div class="container px-4 px-lg-5 h-75">
+            <div class="container px-4 px-lg-5">
                 <div
-                    class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center"
+                    class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center"
                 >
                     <div class="col-lg-8 align-self-end">
 
-                        <img src={logoUrl} className="logo profile-small rounded-circle"
+                        <img src={formal_cbondoc} className="logo profile-small rounded-circle"
                             alt="100x100" data-holder-rendered="true" />
-
 
                         <h1 class="font-weight-bold pt-5">
                             I'm
                             <span class="font-weight-bold text-primary"> Cary Bondoc</span>
                         </h1>
+                        <i class="bi bi-123"></i>
                         <h5 class="font-weight-bold p-5">
                             An aspiring full-stack web developer based in the Philippines,
-                            currently enrolled in KodeGo.
+                            currently enrolled in KodeGo
                         </h5>
-                        <h5 class="font-weight-bold p-1">
-                            Initial number of hours I code starting 2022 and using VS code alone
+                        <h5 class="font-weight-bold p-1 pb-4">
+                            Initial number of hours I code starting July 2022 and using VS code alone
                         </h5>
-                        <img
-                            alt="Code Time"
-                            src="https://img.shields.io/endpoint?style=social&url=https://codetime-api.datreks.com/badge/4338?logoColor=dark%26project=%26recentMS=0%26showProject=false" class="w-50"
-                        />
+                        <a href="https://wakatime.com/@0ce2f178-b742-4c6c-bf4f-92cd829ec635"><img width="400" height="50" src="https://wakatime.com/badge/user/0ce2f178-b742-4c6c-bf4f-92cd829ec635.svg" alt="Total time coded since Jul 10 2022" /></a>
                     </div>
                 </div>
             </div>
         </header>
 
 
+        <hr class="divider divider-light" />
 
-
-
-
-        {/* <!-- About--> */}
-        <section class="page-section bg-primary" id="about">
-            <div class="container-fluid px-4 px-lg-5 h-100 d-flex flex-5">
+        <section class="page-section" id="about">
+            <div class="container-fluid ">
                 <div
-                    class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center"
+                    class="row align-items-center justify-content-center text-center"
                 >
-                    <div class="col-lg-8">
-                        <h2 class="mt-0">
+                    <div class="col-md-8">
+                        <h2 class="mb-5 pb-5">
                             Integrating Technology and Engineering
                         </h2>
-                        <hr class="divider divider-light" />
-                        <h5 class="mb-5 p-5">
+                    </div>
+                    <div className='row'>
+                        <div className='offset-md-3 col-md-2'>
+                            <img src={bsit_cbondoc} className="logo profile-small rounded-circle"
+                                alt="100x100" data-holder-rendered="true" />
+                        </div>
+
+                        <div className='offset-md-2 col-md-2'>
+                            <img src={bsee_cbondoc} className="logo profile-small rounded-circle"
+                                alt="100x100" data-holder-rendered="true" />
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-8 pt-5">
+                        <h5 class="mb-4">
                             A graduate of both Bachelor of Science in Information Technology
-                            (2012) and Bachelor of Science in Electrical Engineering (2020),
-                            part-time working at SPEDI Construction, Inc. I love researching
-                            and exploring new skills, discovering new tools and things that
+                            (2012) and Bachelor of Science in Electrical Engineering (2020)
+                        </h5>
+                        <h5 class="mb-4">
+                            I'm currently working as a part-time IT Consultant at SPEDI Construction, Inc. My goal is to eliminate manual tasks, automate as much as possible and integrate technology to lessen the workload of engineering
+                        </h5>
+                        <h5 class="mb-4">
+                            I love researching and exploring new skills, discovering new tools and things that
                             may improve my productivity. I also love gardening and doing home
                             improvements!
                         </h5>
@@ -82,11 +100,11 @@ const Body = () => (
         </section>
 
 
-        {/* <!-- Services--> */}
-        <section class="page-section bg-secondary" id="services">
+        <hr class="divider divider-light" />
+
+        <section class="page-section" id="services">
             <div class="container px-5 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider" />
+                <h2 class="text-center">At Your Service</h2>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
@@ -118,7 +136,7 @@ const Body = () => (
                             <div class="mb-2">
                                 <i class="bi-broadcast fs-1 text-primary"></i>
                             </div>
-                            <h3 class="h4 mb-2">Basic Automation</h3>
+                            <h3 class="h5 mb-2">Basic Automation</h3>
                             <p class="mb-0">
                                 Integrating devices and sensors to help you in day to day task
                                 like automation of lights and appliances based on certain
@@ -131,7 +149,7 @@ const Body = () => (
                             <div class="mb-2">
                                 <i class="bi-search fs-1 text-primary"></i>
                             </div>
-                            <h3 class="h4 mb-2">Attention to Details</h3>
+                            <h3 class="h5 mb-2">Attention to Details</h3>
                             <p class="mb-0">
                                 Accomplishing the task while demonstrating a thorough concern
                                 for all the areas involved, no matter how small.
@@ -141,7 +159,7 @@ const Body = () => (
                 </div>
             </div>
         </section>
-        {/* <!-- Portfolio--> */}
+
         <div id="portfolio">
             <div class="container-fluid p-0 pt-0">
                 <div class="row g-0">
@@ -152,7 +170,6 @@ const Body = () => (
                             title="Electrical Estimation of Shell Alaminos"
                         >
                             <img src={thumb_Portfolio1} className="img-fluid" alt="Electrical Estimation of Shell Alaminos" data-holder-rendered="true" />
-
 
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">
@@ -168,12 +185,7 @@ const Body = () => (
                             href="assets/img/portfolio/fullsize/2.jpg"
                             title="Project Name"
                         >
-
-
-
                             <img src={thumb_Portfolio2} className="img-fluid" alt="Attention to Details" data-holder-rendered="true" />
-
-
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">
                                     Web Development
@@ -188,14 +200,7 @@ const Body = () => (
                             href="assets/img/portfolio/fullsize/3.jpg"
                             title="Sample Home Improvement Project"
                         >
-
-
-
-
-
                             <img src={thumb_Portfolio3} className="img-fluid" alt="Sample Home Improvement Project" data-holder-rendered="true" />
-
-
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">
                                     Home Improvements
@@ -210,10 +215,7 @@ const Body = () => (
                             href="assets/img/portfolio/fullsize/4.jpg"
                             title="Sample Automation Project"
                         >
-
-
                             <img src={thumb_Portfolio4} className="img-fluid" alt="Sample Automation Project" data-holder-rendered="true" />
-
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">
                                     Basic Automation
@@ -228,8 +230,6 @@ const Body = () => (
                             href="assets/img/portfolio/fullsize/5.jpg"
                             title="Project # 5 Sample"
                         >
-
-
                             <img src={thumb_Portfolio5} className="img-fluid" alt="Project # 5 SampleProject # 5 Sample" data-holder-rendered="true" />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">
@@ -245,8 +245,6 @@ const Body = () => (
                             href="assets/img/portfolio/fullsize/6.jpg"
                             title="Home Improvement Sample Project"
                         >
-
-
                             <img src={thumb_Portfolio6} className="img-fluid" alt="Home Improvement Sample Project" data-holder-rendered="true" />
                             <div class="portfolio-box-caption p-3">
                                 <div class="project-category text-white-50">
@@ -259,13 +257,99 @@ const Body = () => (
                 </div>
             </div>
         </div>
-        {/* <!-- Call to action--> */}
-        <section class="page-section bg-primary">
+
+
+        <section class="page-section" id="services">
+            <div class="container">
+
+                <h1 class="text-center mt-5 mb-5 pb-5"><em>On Going Projects</em></h1>
+                <div className='row'>
+                    <div className="col-md-4">
+                        <h5 class="text-center">
+                            <i>
+                                Due to the nature of work in the engineering field, almost all employees are scattered on different project sites, ranging from Luzon, Visayas and Mindanao.
+                            </i>
+                        </h5>
+                    </div>
+                    <div className="col-md-4">
+                        <h2 class="text-center mt-3 pt-2 mb-2 text-primary">
+                            Smart Attendance System
+                        </h2>
+                    </div>
+                    <div className="col-md-4">
+                        <h5 class="text-center">
+                            <i>
+                                They also have different time in and time out of work since they need to consider the travel time, weather, equipments and other things that might hinder the activities.
+                            </i>
+                        </h5>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-calculator fs-1 text-primary"></i>
+                            </div>
+                            <FontAwesomeIcon className='pb-4' icon={faEarthAsia} size={'4x'} />
+
+                            <p class="mb-0">
+                                Allows the employees to time in and out using their mobile phones, anywhere in the world as long as they have internet access
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-house-door fs-1 text-primary"></i>
+                            </div>
+                            <FontAwesomeIcon className='pb-4' icon={faCheckDouble} size={'4x'} />
+                            <p class="mb-0">
+                                Easy to use, fit for the busy and on-the-go person. A simple tap is all it takes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-broadcast fs-1 text-primary"></i>
+                            </div>
+                            <FontAwesomeIcon className='pb-4' icon={faLocationCrosshairs} size={'4x'} />
+                            <p class="mb-0">
+                                Identifies the current location of the employee while they are doing the attendance, making sure they are where they need to be
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-search fs-1 text-primary"></i>
+                            </div>
+                            <FontAwesomeIcon className='pb-4' icon={faCalculator} size={'4x'} />
+                            <p class="mb-0">
+                                Provides statistical record for each employee. Easily determines the total hours they spend.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-4 col-md-12 text-center">
+                        <img src={smart_attendance_1} width={400} height={600} className="text-center"
+                            alt="Smart Attendance System" data-holder-rendered="true" />
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 text-center pt-5 mt-3">
+                        <img src={smart_attendance_2} width={600} height={450} className="text-center"
+                            alt="Smart Attendance System" data-holder-rendered="true" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="page-section">
             <div class="container px-4 px-lg-5 py-lg-5 my-lg-5 text-center">
                 <h2 class="mb-4">Interested in the services that I offered?</h2>
             </div>
         </section>
-        {/* <!-- Contact--> */}
+
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -280,7 +364,6 @@ const Body = () => (
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6">
-
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <div class="form-floating mb-3">
                                 <input
@@ -375,14 +458,7 @@ const Body = () => (
                 </div>
             </div>
         </section>
-
-
     </div>
-
-
-
-
-
 )
-
 export default Body;
+
