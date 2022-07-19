@@ -331,7 +331,7 @@ const Body = () => (
                         </div>
                     </div>
                     <div class="offset-lg-1 col-lg-4 col-md-12 text-center">
-                        <img src={smart_attendance_1} width={400} height={600} className="text-center"
+                        <img src={smart_attendance_1} width={350} height={600} className="text-center"
                             alt="Smart Attendance System" data-holder-rendered="true" />
                     </div>
 
