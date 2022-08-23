@@ -2,8 +2,6 @@ import React from 'react';
 import './Body.css';
 
 
-
-
 import formal_cbondoc from '../../assets/images/formal_cbondoc.jpg';
 import bsit_cbondoc from '../../assets/images/bsit_cbondoc.png';
 import bsee_cbondoc from '../../assets/images/bsee_cbondoc.jpg';
@@ -17,10 +15,16 @@ import smart_attendance_1 from '../../assets/images/smart_attendance_1.png';
 import smart_attendance_2 from '../../assets/images/smart_attendance_2.png';
 
 
+import logo_react from '../../assets/images/logo_react.png';
+
+
 import { render } from 'react-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEarthAsia, faLocationCrosshairs, faCalculator, faCheckDouble } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Col, Row, Container } from 'react-bootstrap';
 
 
 const Body = () => (
@@ -43,8 +47,7 @@ const Body = () => (
                         </h1>
                         <i class="bi bi-123"></i>
                         <h5 class="font-weight-bold p-5">
-                            An aspiring full-stack web developer based in the Philippines,
-                            currently enrolled in KodeGo
+                            A full-stack web developer based in the Philippines
                         </h5>
                         <h5 class="font-weight-bold p-1 pb-4">
                             Initial number of hours I code starting July 2022 and using VS code alone
@@ -59,6 +62,7 @@ const Body = () => (
         <hr class="divider divider-light" />
 
         <section class="page-section" id="about">
+
             <div class="container-fluid ">
                 <div
                     class="row align-items-center justify-content-center text-center"
@@ -99,38 +103,182 @@ const Body = () => (
             </div>
         </section>
 
+        <Container>
 
-        <hr class="divider divider-light" />
+            <Row>
+                <Col md={12}>
+                    <hr class="divider divider-light" />
+                    <h2 class="text-center">Skills</h2>
+                    <hr class="divider divider-light" />
+                </Col>
+            </Row>
+
+            <Row className="text-center mt-5">
+
+                <Col md={3}>
+                    <Image src={logo_react} />
+                    <img src={logo_react} className="logo profile-small rounded-circle"
+                        alt="100x100" data-holder-rendered="true" />
+                    <h3 class="h5 mb-2">
+                        Frontend Developer
+                    </h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">
+                        Backend Developer
+                    </h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">
+                        MVC Architecture
+                    </h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">
+                        Github
+                    </h3>
+                </Col>
+
+            </Row>
+
+            <Row className="text-center">
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Basic understanding of React JS, allows me to create interactive UI and bootstrap framework for mobile-friendliness
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Using laravel as backend and integrating it to React JS and MySQL to store and retrieve data
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Basic understanding of using github for collaboration purposes and hosting of portfolios
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Separating the model, view and controller for easy collaboration and testing of codes
+                    </p>
+                </Col>
+
+            </Row>
+
+            <Row className="text-center mt-5">
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">Electrical Estimate</h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">Creating As-built plan</h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">
+                        Attention to Details
+                    </h3>
+                </Col>
+
+                <Col md={3}>
+                    <h3 class="h5 mb-2">
+                    </h3>
+                </Col>
+
+            </Row>
+
+            <Row className="text-center">
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Create electrical estimates based on the given plan. It includes
+                        all the electrical fixtures, wires, and pipes for the entire
+                        project.
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Create as-built plans according to the given instruction and accurately reflect all the changes that needs to be done
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+                        Accomplishing the task while demonstrating a thorough concern
+                        for all the areas involved, no matter how small
+                    </p>
+                </Col>
+
+                <Col md={3}>
+                    <p class="mb-0">
+
+                    </p>
+                </Col>
+
+            </Row>
+        </Container>
 
         <section class="page-section" id="services">
             <div class="container px-5 px-lg-5">
-                <h2 class="text-center">At Your Service</h2>
                 <div class="row gx-4 gx-lg-5">
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2">
                                 <i class="bi-calculator fs-1 text-primary"></i>
                             </div>
-                            <h3 class="h5 mb-2">Electrical Estimate</h3>
-                            <p class="mb-0">
-                                Create electrical estimates based on the given plan. It includes
-                                all the electrical fixtures, wires, and pipes for the entire
-                                project.
-                            </p>
                         </div>
                     </div>
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2">
                                 <i class="bi-house-door fs-1 text-primary"></i>
                             </div>
-                            <h3 class="h5 mb-2">Home Improvements</h3>
-                            <p class="mb-0">
-                                Basic home improvements like addition of electrical fixtures,
-                                sink, room, c.r and installation of CCTV cameras.
-                            </p>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-broadcast fs-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-search fs-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-calculator fs-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2">
+                                <i class="bi-house-door fs-1 text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2">
@@ -144,6 +292,7 @@ const Body = () => (
                             </p>
                         </div>
                     </div>
+
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2">
@@ -156,6 +305,7 @@ const Body = () => (
                             </p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
