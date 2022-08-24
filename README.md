@@ -1,3 +1,3 @@
-access this site here
+access the site here
 
-https://cary1234.github.io/Portfolio-ReactJS/
+https://cbondoc.github.io/fullstack-web-developer/
