@@ -226,7 +226,7 @@ const Body = () => (
         </section>
 
 
-        <section class="page-section" id="protfolio">
+        <section class="page-section" id="portfolio">
             <div class="container px-5 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
 
