@@ -3,29 +3,20 @@ import './App.css';
 
 import { Helmet } from "react-helmet";
 
-import "./assets/css/styles.css"
-import "./assets/css/simpleLightbox.min.css"
 
-
-
-import Header from './components/Header/Header';
-import Body from './components/Body/Body';
-import Footer from './components/Footer/Footer';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      status: true
-    }
-  }
+
   render() {
     return (
-      <div className="App">
 
 
+      <>
 
         <Helmet>
           <script src=
@@ -42,8 +33,10 @@ class App extends Component {
         <Footer />
 
         <i class="bi bi-123"></i>
+      </>
 
-      </div>
+
+
     );
   }
 }

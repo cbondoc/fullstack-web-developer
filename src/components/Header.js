@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logoUrl from '../../assets/images/logo_cbondoc.png';
+import logoUrl from '../assets/images/logo_cbondoc.png';
 const Header = () => (
 
 
@@ -10,8 +10,7 @@ const Header = () => (
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="./index.html"
-                > <img src={logoUrl} className="logo" alt="Tesla" /></a>
+                <img src={logoUrl} className="logo" alt="Tesla" />
                 <button
                     class="navbar-toggler navbar-toggler-right"
                     type="button"
@@ -29,7 +28,7 @@ const Header = () => (
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#services">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Portfolio</a>
