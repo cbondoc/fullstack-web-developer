@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/fullstack-web-developer/static/css/main.8fcbcfb8.css",
-    "main.js": "/fullstack-web-developer/static/js/main.0d234b21.js",
+    "main.css": "/fullstack-web-developer/static/css/main.e6379f26.css",
+    "main.js": "/fullstack-web-developer/static/js/main.b093ceb3.js",
     "static/js/787.2c9ed5cd.chunk.js": "/fullstack-web-developer/static/js/787.2c9ed5cd.chunk.js",
+    "static/media/portfolio_triune_1.PNG": "/fullstack-web-developer/static/media/portfolio_triune_1.6baa1fd58232f13335a9.PNG",
     "static/media/bsee_cbondoc.jpg": "/fullstack-web-developer/static/media/bsee_cbondoc.8d7a2f1c6ca7aff60ccf.jpg",
     "static/media/bsit_cbondoc.png": "/fullstack-web-developer/static/media/bsit_cbondoc.20df45c061aeeb3b9cb1.png",
+    "static/media/base_gmc.png": "/fullstack-web-developer/static/media/base_gmc.d357d07206b3b4997189.png",
     "static/media/formal_cbondoc.jpg": "/fullstack-web-developer/static/media/formal_cbondoc.feca8359fa4a4662bfcb.jpg",
-    "static/media/logo_react.png": "/fullstack-web-developer/static/media/logo_react.2a62e27e56a2f28eb5b2.png",
-    "static/media/portfolio_attendance_2.jpg": "/fullstack-web-developer/static/media/portfolio_attendance_2.c0024576ee9604a3401a.jpg",
-    "static/media/portfolio_attendance_3.jpg": "/fullstack-web-developer/static/media/portfolio_attendance_3.081e350c5d8ebd31d61a.jpg",
-    "static/media/portfolio_attendance_1.png": "/fullstack-web-developer/static/media/portfolio_attendance_1.8a92c2d31be82c3d9b74.png",
+    "static/media/portfolio_triune_2.PNG": "/fullstack-web-developer/static/media/portfolio_triune_2.064a3b569fa4f162522e.PNG",
+    "static/media/portfolio_gomeco_2.jpg": "/fullstack-web-developer/static/media/portfolio_gomeco_2.6b934c5acd7fa06cf81d.jpg",
+    "static/media/portfolio_gomeco_1.jpg": "/fullstack-web-developer/static/media/portfolio_gomeco_1.3caccaf997d548410575.jpg",
+    "static/media/portfolio_itti_1.jpg": "/fullstack-web-developer/static/media/portfolio_itti_1.b6024572b3bbb1b0046b.jpg",
+    "static/media/portfolio_attendance_2.jpg": "/fullstack-web-developer/static/media/portfolio_attendance_2.cf02cc6035e8045a875f.jpg",
+    "static/media/portfolio_dating_website_1.jpg": "/fullstack-web-developer/static/media/portfolio_dating_website_1.b48830e8713efdeb6acd.jpg",
+    "static/media/portfolio_attendance_1.png": "/fullstack-web-developer/static/media/portfolio_attendance_1.99424d75a1fb8fd28aa1.png",
+    "static/media/base_attendance.png": "/fullstack-web-developer/static/media/base_attendance.7a8ad6de4e1429942d0c.png",
     "static/media/logo_cbondoc.png": "/fullstack-web-developer/static/media/logo_cbondoc.b3f0dd6dc87e1828319e.png",
+    "static/media/base_tesi.png": "/fullstack-web-developer/static/media/base_tesi.e0ee10210804827ff165.png",
     "index.html": "/fullstack-web-developer/index.html",
-    "main.8fcbcfb8.css.map": "/fullstack-web-developer/static/css/main.8fcbcfb8.css.map",
-    "main.0d234b21.js.map": "/fullstack-web-developer/static/js/main.0d234b21.js.map",
+    "main.e6379f26.css.map": "/fullstack-web-developer/static/css/main.e6379f26.css.map",
+    "main.b093ceb3.js.map": "/fullstack-web-developer/static/js/main.b093ceb3.js.map",
     "787.2c9ed5cd.chunk.js.map": "/fullstack-web-developer/static/js/787.2c9ed5cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fcbcfb8.css",
-    "static/js/main.0d234b21.js"
+    "static/css/main.e6379f26.css",
+    "static/js/main.b093ceb3.js"
   ]
 }
