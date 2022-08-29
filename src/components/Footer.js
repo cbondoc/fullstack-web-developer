@@ -5,6 +5,8 @@
 
 import React from 'react';
 import './Footer.css';
+
+import { Container } from "react-bootstrap"
 const Footer = () => (
 
 
@@ -16,12 +18,12 @@ const Footer = () => (
 
 
         {/* <!-- Footer--> */}
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5">
-                <div class="small text-center text-muted">
+        <footer className="pb-3 pt-3" style={{ backgroundColor: '#7A8082' }}>
+            <Container>
+                <div className="small text-center text-light">
                     Copyright &copy; 2022 - CBondoc
                 </div>
-            </div>
+            </Container>
         </footer>
 
 

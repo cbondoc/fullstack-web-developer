@@ -8,11 +8,11 @@ const Header = () => (
 
     <div className="header" id="page-top">
 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <img src={logoUrl} className="logo" alt="Tesla" />
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style={{ backgroundColor: '#7A8082' }}>
+            <div className="container">
+                <img src={logoUrl} alt="Tesla" width={75} height={45} />
                 <button
-                    class="navbar-toggler navbar-toggler-right"
+                    className="navbar-toggler navbar-toggler-right"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive"
@@ -20,21 +20,21 @@ const Header = () => (
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ms-auto my-2 my-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Skills</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#services">Skills</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#portfolio">Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
