@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Helmet } from "react-helmet";
-
 
 import Header from './Header';
 import Body from './Body';
